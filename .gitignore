@@ -1,0 +1,225 @@
+################################################################################
+#                            GLOBAL OS IGNORES                                 #
+################################################################################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Linux temp files
+*~
+.nfs*
+
+################################################################################
+#                            PYTHON / DATA SCIENCE                              #
+################################################################################
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+*.dll
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+sdist/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Jupyter notebook
+.ipynb_checkpoints
+*.ipynb_convert
+profile_default/
+ipython_config.py
+
+# Data science – large datasets & artifacts
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.orc
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.bak
+*.tmp
+*.cache
+*.pickle
+*.pkl
+*.joblib
+
+# Images (raw outputs, plots)
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+################################################################################
+#                                 PYQT / GUI                                    #
+################################################################################
+
+# Qt build / migrations
+*.pyqt6*
+*_ui.py
+resources_rc.py
+*.qrc
+*.qmlc
+*.jsc
+
+################################################################################
+#                            FRONTEND / WEB (optional)                          #
+################################################################################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+.cache/
+.next/
+out/
+# Lock-files (якщо в проєкті вони не потрібні)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+################################################################################
+#                              DOCKER / DEVOPS                                  #
+################################################################################
+
+docker-compose.override.yml
+.env
+.env.*
+*.env.local
+*.env.development
+*.env.production
+
+# Docker build artifacts
+**/.docker-cache
+**/.dockerignore
+
+################################################################################
+#                                 EDITORS                                        #
+################################################################################
+
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# JetBrains
+out/
+
+################################################################################
+#                                    LOGS                                        #
+################################################################################
+
+*.log
+logs/
+logs/*
+
+################################################################################
+#                               OTHER BINARY                                     #
+################################################################################
+
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.tgz
+
+################################################################################
+#                       PROJECT-SPECIFIC (For your engine)                      #
+################################################################################
+
+# Optimization results
+results/
+output/
+artifacts/
+
+# Generated plots
+plots/
+figures/
+
+# Temp files for engine runs
+run_*/
+temp_*/
+cache/
+
+# AnyLogic / simulations
+*.alp
+*.alst
+*.class
+
+################################################################################
+#                                END OF FILE                                     #
+################################################################################
