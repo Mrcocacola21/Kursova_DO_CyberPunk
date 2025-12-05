@@ -64,7 +64,7 @@
 ## Встановлення та запуск
 
 ```bash
-git clone https://github.com/<your-username>/optimization-app.git
+git clone https://github.com/Mrcocacola21/Kursova_DO_CyberPunk
 cd optimization-app
 
 # Встановлення залежностей
